@@ -15,4 +15,4 @@ The table below shows the default pin assignments.
 | CMD         | MOSI    | XX           |
 
 ### Notes
-The SSP module 1 is configured to print data over uart at 115k baud. SPI communication is handled throgh the 2nd module (SSPM2).
+The SSP module 1 is configured to print log data over uart at 115k baud. SPI communication is handled throgh the 2nd module (SSPM2).
