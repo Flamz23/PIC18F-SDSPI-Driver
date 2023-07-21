@@ -1,8 +1,8 @@
 # PIC18F-sddpi-driver
-An SD SPI driver for the PIC18F46K22 microcontroller. This driver can be used to read and write to individual blocks on the card without an underlying filesystem
+An SD SPI driver for the PIC18F46K22 microcontroller. This driver can be used to read and write to individual blocks on the card without an underlying filesystem.
 
 ## Hardware
-A PIC18F microcontroller, SD card socket and and SD card are required. Pullups may also be required for the SPI data lines depending on your setup
+A PIC18F microcontroller, SD card socket and and SD card are required. Pullups may also be required for the SPI data lines depending on your setup.
 
 ### Pin Assignments
 The table below shows the default pin assignments.
