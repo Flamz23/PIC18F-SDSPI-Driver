@@ -7,12 +7,12 @@ A PIC18F microcontroller, SD card socket and and SD card are required. Pullups m
 ### Pin Assignments
 The table below shows the default pin assignments.
 
-| SD Card pin | SPI pin | PIC gpio pin |
-|-------------|---------|--------------|
-| D0          | MISO    | Pin 20 (RD1) |
-| D3          | CS      | Pin 22 (RD3) |
-| CLK         | SCK     | Pin 20 (RD0) |
-| CMD         | MOSI    | Pin 27 (RD4) |
+| SD Card pin | SPI pin | PIC gpio pin | DDR config     |
+|-------------|---------|--------------|----------------|
+| D0          | MISO    | Pin 20 (RD1) | Digital Input  |
+| D3          | CS      | Pin 22 (RD3) | Digital Output |
+| CLK         | SCK     | Pin 20 (RD0) | Digital Output |
+| CMD         | MOSI    | Pin 27 (RD4) | Digital Output |
 
 | USART cable | line Color | PIC gpio pin          |
 |-------------|------------|-----------------------|
