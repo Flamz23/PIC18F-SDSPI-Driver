@@ -14,5 +14,12 @@ The table below shows the default pin assignments.
 | CLK         | SCK     | Pin 20 (RD0) |
 | CMD         | MOSI    | Pin 27 (RD4) |
 
+| USART cable | line Color | PIC gpio pin          |
+|-------------|------------|-----------------------|
+| TX          | Green      | Pin 30 (RD7 optional) |
+| RX          | White      | Pin 29 (RD6)          |
+| GND         | Black      | GND                   |
+| POWER       | Red        | NC (Not needed)       |
+
 ### Notes
 The SSP module 1 is configured to print log output over uart at 115k baud. SPI communication is handled throgh the 2nd module (SSPM2).
